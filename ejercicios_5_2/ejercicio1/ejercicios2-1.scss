@@ -1,0 +1,12 @@
+$naranja: #F80;
+$segundoDestacado: #2E5F64;
+#primero{
+    .destacado {
+        color: $naranja;
+    }
+}
+#segundo{
+    .destacado {
+        color: $segundoDestacado;
+    }
+}
