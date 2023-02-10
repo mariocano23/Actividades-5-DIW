@@ -1,0 +1,29 @@
+$naranja: #F80;
+$segundoDestacado: #2E5F64;
+#primero{
+    .destacado {
+        color: $naranja;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 6px;
+    }
+}
+#segundo{
+    .destacado {
+        color: $segundoDestacado;
+        font-size: 1.4rem;
+        text-decoration: underline;
+        padding: 5px;
+
+    }
+    p:not(.destacado):first-line{
+        font-style: italic;
+    }
+    #parrafos{
+        text-align: right;
+    }
+}
+
+div{
+    padding: 20px;
+}
